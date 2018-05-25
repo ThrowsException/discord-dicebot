@@ -11,7 +11,7 @@ bot.on('ready', function() {
 
 bot.on('disconnect', function(errMsg, code) { console.log(errMsg, code) });
 bot.on('message', function(user, userID, channelID, message, event) {
-    if (message.indexOf("!broadcast") > 0) {
+    if (message.indexOf("!broadcast") === 0) {
         [ command, subject, body ] = message.split(' ')
         request.post(`${process.env.AWEBER_API}/broadcast/${process.env.ACCOUNT_ID}`,
             { subject: subject, message: body },
