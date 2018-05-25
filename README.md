@@ -1,8 +1,7 @@
 # Discord Dicebot
 
-Throws dice
-Requires a discord bot token to run
+Bot to send messages to a tornado app that sends emails using aweber
 
 ```
-BOT_TOKEN=<token> node app.js
+BOT_TOKEN=<token> app.js
 ```
