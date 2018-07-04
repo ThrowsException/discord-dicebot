@@ -8,7 +8,7 @@
     "url": "git@github.com:ThrowsException/discord-dicebot.git"
   },
   "dependencies": {
-    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.3.2",
     "oauth": "^0.9.15",
     "request": "^2.87.0"
   },
